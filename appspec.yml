@@ -5,7 +5,7 @@ files:
     destination: /tmp/deployment-archive
 hooks:
   AfterInstall:
-    - location: scripts/start.sh
+    - location: script/start.sh
       timeout: 300
       runas: root
 
